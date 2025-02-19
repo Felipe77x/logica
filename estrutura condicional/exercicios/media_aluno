@@ -1,0 +1,19 @@
+
+
+import os
+os.system("clear")
+
+nota1 = float(input("Primeira nota:"))
+nota2 = float(input("Segunda nota:"))
+nota3 = float(input("Terceira nota:"))
+
+media = (nota1 + nota2 + nota3) / 3
+
+if media >= 7: 
+   print("Aluno aprovado")
+elif media < 7:
+   print("Recuperação")
+else:
+   print("Reprovado")
+
+
