@@ -1,18 +1,16 @@
- lista_impar_par = []
+lista_numero = []
+quantidades_numero = 6
 
-def impar_par (lista_impar_par,numero,contador_par, contador_impar):
 
-    contador_par = 0
-    contador_impar = 0
-   
-    numero = int(input("Digite seus números:"))
-    lista_impar_par.append(numero)
-    if numero % 2 == 0:
-        contador_par += 1  
-    else:
-        contador_impar += 1 
-    
+def pares_impares(lista):
+    pares = 0
+    impares = 0 
 
-    print(f"A quantidade de números pares é: {contador_par}")
-    print(f"A quantidade de números ímpares é: {contador_impar}")
+    for numero in lista:
+        if numero % 2 == 0:
+            pares += 1
+        else:
+            impares += 1
+    return pares, impares
+print("=Solicitando numero")
     
