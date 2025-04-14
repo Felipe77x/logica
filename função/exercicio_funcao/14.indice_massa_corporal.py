@@ -26,4 +26,5 @@ def imc():
     elif resultado_media > 40:
         print("Obesidade grau 3")
 
-resultado = massa_corporal(imc())
+resultado = massa_corporal(imc(peso,altura))
+print(resultado)
