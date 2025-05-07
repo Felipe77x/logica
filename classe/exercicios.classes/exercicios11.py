@@ -16,7 +16,7 @@ class usuarios:
     def exibit_dados(self):
              print(f"Nome: {self.nome} \n data_nascimento: {self.data_nascimento} \n {self.rg} \n {self.cpf} \n \n")
 
-quantidade = 1
+quantidade = 5
 lista_usuario = []
 for i in range(quantidade):
 
