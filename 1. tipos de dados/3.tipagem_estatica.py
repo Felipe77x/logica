@@ -1,3 +1,0 @@
-# Definição de tipos obrigatória.
-
-
