@@ -7,4 +7,4 @@ console.log("Idade:", idade)
 
 var nome = "Dias"
 
-console.log('Nome: ${nome}')
+console.log(`Nome: ${nome}`)
